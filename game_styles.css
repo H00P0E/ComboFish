@@ -53,9 +53,6 @@ body {
     img.playAgain:hover {
         content: url("assets/playAgainDark.png");
     }
-    img.exit:hover {
-        content: url("assets/exitDark.png");
-    }
 }
 #tutorialScreen {
     /*citing w3school: https://www.w3schools.com/cssref/tryit.php?filename=trycss3_background_hero*/
@@ -81,8 +78,15 @@ body {
     text-align: center;
     position: absolute;
     top: 55%;
-    left: 20%;
+    left: 35%;
+}
+.buttons-top-right {
+    position: absolute;
+    left: 490px;
 }
 .buttons {
     cursor: pointer;
+}
+img.exit:hover {
+    content: url("assets/exitDark.png");
 }
